@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  font-family: 'Goudy Old Style', system-ui, sans-serif;
+  overflow-y: auto;
+  min-height: 100%;
+}
+
+h1 {
+    color: #e0f0ff;
+font-family: 'Goudy Old Style', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 60px;
+margin-bottom: 30px;
+margin-top: 40px;
+}
+
+h2 {
+    color: #e0f0ff;
+font-family: 'Goudy Old Style', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+h3 {
+    color: #e0f0ff;
+font-family: 'Goudy Old Style', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 30px;
+margin-top: 30px;
+}
+
+.container {
+    text-align: center;
+  padding: 30px;
+  background-color: rgb(4, 50, 134);
+  position: absolute;
+  top: 53%;
+    left: 50%;
+    width: 500px;
+    height: 530px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 600px;
+}
+
+.card {
+    background-color: rgb(4, 50, 134);
+    padding: 10px;
+    width: 295px;
+    height: 630px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color :rgb(4, 50, 134);
+    color: #e0f0ff;
+    justify-content: center;
+    align-self: center;
+    border-radius: 15px;
+    border: 0;
+    font-size: 30px;
+    font-family:'Century Gothic';
+    gap: 15px;
+}
+
+button:hover {
+    background-color: #2370ff9c;
+    color: #68a9ff73;
+    transition: .3s ease all;
+    transform: translateY(0%);
+}
+
+.image-btn img {
+    width: 270px;
+    height: 600px
+    transition filter 0.3s ease-in-out;
+    margin-top: 0px;
+}
+
+.img-btn.active img {
+    filter: drop-shadow(0 0 15px #68a9ff)
+}
+
+.hover-button-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hidden-text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(4, 50, 134);
+    color:#e0f0ff;
+    font-family: "Harrington";
+    font-size: 30px;
+    padding: 5px 100px;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.hover-button-link:hover .hidden-text {
+    opacity: 1;
+    visibility: visible;
+}
