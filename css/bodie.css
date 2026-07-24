@@ -26,7 +26,7 @@ h2 {
 font-family: 'Goudy Old Style', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 font-size: 30px;
-margin-bottom: 50px;
+margin-bottom: 20px;
 margin-top: 10px;
 }
 
@@ -41,15 +41,16 @@ margin-bottom: 40px;
 
 .container {
   text-align: center;
-  padding: 40px;
-  background: rgba(75, 147, 255, 0.404);
+  padding: 30px;
+  background: rgba(107, 129, 161, 0.349);
   position: absolute;
   top: 100%;
     left: 50%;
-    width: 800px;
-    height: 900px;
+    width: 600px;
+    height: 1600px;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    margin-bottom: 50px;
     
     display: flex;
   flex-direction: column;
@@ -62,7 +63,7 @@ button {
     display: block;
     padding: 20px;
     margin: 0 auto;
-    background-color :rgba(103, 156, 255, 0.336);
+    background-color : rgba(170, 204, 255, 0.397);
     color: #e0f0ff;
     justify-content: center;
     align-self: center;
@@ -99,20 +100,23 @@ button:hover {
 
 .modal-content {
     background-color: #e0f0ff;
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
-    max-width: 500px;
-    width: 170%;
+    max-width: 700px;
+    width: 700%;
+    height: 1930px;
     position: relative;
     text-align: center;
+    font-size: 25px;
+    margin-top: 370px;
 }
 
 .close-icon {
     position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
+    bottom: 0px;
+    font-size: 50px;
     cursor: pointer;
+    margin-top: 45px;
 }
 
 .button-img {
@@ -147,7 +151,7 @@ button:hover {
     background-color: rgb(0, 5, 71);
     color:#e0f0ff;
     font-family: "Century Gothic";
-    padding: 8px 16px;
+    padding: 5px 50px;
     border-radius: 20px;
     pointer-events: none;
     opacity: 0;
