@@ -13,14 +13,16 @@
                 background-size: cover;
             }
         </style>
-     
+       <audio id="sound">
+        <source src="sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3">
+       </audio>
      <section class="container">
         <header>
         <h1>Bodie Island Lighthouse</h1>
         <h2>Built: 1872, Height: 156 ft. 219 Steps</h2>
      </header>
         <h2>Click the Images Below to View the History</h2>
-        <button class="imageBtn">
+        <button id="bodiePlay" class="imageBtn">
         <img src="images/100_5587.JPG" width="400" height="600">
         </button>
 <div class="textPopup modal-overlay">
@@ -38,7 +40,7 @@
         </p>
     </div>
 </div>
-        <button class="imageBtn">
+        <button id="play" class="imageBtn">
         <img src="images/100_5781.JPG" width="460" height="340">
         </button>
 <div class="textPopup modal-overlay">
@@ -47,7 +49,7 @@
         <h3>Kill Devil Hills</h3>
         <p>The Wright Brothers chose this area to test their aircraft, due to the wind there. 
             <img src="images/100_5783.JPG" width="500" height="420">
-            The Hangar, where they stored their aircraft.
+            The hangar, where they stored their aircraft.
             <img src="images/100_5791.JPG" width="500" height="420">
             In December of 1903, the Wright Brothers completed a flight in their new motorized aircraft.  
             Because of their dedication and hard work, the age of human flight had launched.
@@ -63,6 +65,6 @@
         </button>
      </footer>
      </section>
-     <script src="js/script.js" defer></script>
+     <script src="js/bodie.js" defer></script>
     </body>
 </html>
