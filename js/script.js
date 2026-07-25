@@ -21,3 +21,13 @@ window.addEventListener('click', (event) => {
         }
     });
 });
+
+let play = document.getElementById("play");
+if (play) {
+    play.addEventListener("click", playMusic);
+}
+function playMusic() {
+    let audio = new Audio("sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3");
+    audio.play()
+}
+    play.addEventListener("click" , playMusic);
