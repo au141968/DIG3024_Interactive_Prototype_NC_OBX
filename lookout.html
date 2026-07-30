@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lighthouses of the Outer Banks</title>
+        <title>Lighthouses of the Outer Banks - Cape Lookout</title>
         <link rel="stylesheet" href="css/lookout.css">
     </head>
     <body>
@@ -13,14 +13,59 @@
                 background-size: cover;
             }
         </style>
-     <header>
+     <audio id="sound1" src="sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3"></audio>
+     <audio id="sound2" src="sound/freesound_community-submarine-33709.mp3"></audio>
+       
+     <section class="container">
+        <header>
         <h1>Cape Lookout Lighthouse</h1>
+        <h2>Built: 1859, Height: 163 ft. 207 Steps</h2>
      </header>
+        <h2>Click the Images Below to View the History</h2>
+        <button id="lookoutPlay" class="imageBtn">
+        <img src="images/100_6706.JPG" width="460" height="340">
+        </button>
+<div class="textPopup modal-overlay">
+    <div class="modal-content">
+        <span class="closeBtn close-icon">&times;</span>
+        <h3>A Beacon Built In The Wilderness With A Unique Diamond Pattern</h3>
+        <p> <img src="images/100_6579.JPG" width="500" height="420">
+            The wild horses of Shackleford Banks near Cape Lookout.  It is thought that their ancestors were horses from Spanish shipwrecks.
+            <img src="images/100_6657.JPG" width="500" height="420">
+            The strategic location of Cape Lookout lighthouse enabled a wide view of the surrounding coastline which was helpful in World War II
+            for spotting ships and unfortunately, submarines.
+            <img src="images/100_5694.JPG" width="500" height="420">
+            Originally, there was a large 1st order Fresnel Lens that sat in the lantern room.  It was removed when the Cape Lookout Lighthouse was automated.  
+            This lighthouse can be reached by ferry, and visitors can climb up to the top on certain days.  While looking out over the ocean, one can imagine
+            what lurked below the surface several decades ago.
+        </p>
+    </div>
+</div>
+        <button id="play" class="imageBtn">
+        <img src="images/a0260cd7-6e32-4cf9-aa2e-315b6d8cae5e.JPG" width="460" height="340">
+        </button>
+<div class="textPopup modal-overlay">
+    <div class="modal-content">
+        <span class="closeBtn close-icon">&times;</span>
+        <h3>Torpedo Junction</h3>
+        <p>During World War II, the waters off the Outer Banks were invaded by a deadly new threat, German U-boats. 
+            <img src="images/100_6729_EDIT.JPG" width="500" height="420">
+            Known as Operation Drumbeat, U-boats sank almost 100 ships.  The East Coast was unprotected and vulnerable to these attacks in 1942.
+            <img src="images/20240409_140851.JPG" width="500" height="700">
+            Radio equipment, like these, were used in radio rooms to alert U.S. forces when a U-boat was spotted.
+            Many civilians patroled the beaches to serve as lookouts as well.  The Civil Air Patrol flew private small planes to hunt for submarines.
+            <img src="images/100_6520.JPG" width="500" height="420">
+            A cemetary for some of the men from the HMT Bedfordshire.  This British trawler was fitted with guns and loaned to the U.S. to patrol shipping lanes.
+            It was torpedoed in May 1942 with the loss of all 37 men.
+        </p>
+    </div>
+</div>
+     </div>
      <footer>
         <button>
        <a href="index.html">Back to Main Menu</a>
         </button>
      </footer>
-     <script src="js/script.js" defer></script>
+     <script src="js/lookout.js" defer></script>
     </body>
 </html>
