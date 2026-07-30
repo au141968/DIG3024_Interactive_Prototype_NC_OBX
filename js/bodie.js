@@ -22,22 +22,28 @@ window.addEventListener('click', (event) => {
     });
 });
 
-let bodiePlay = document.getElementById("play");
-if (bodiePlay) {
-    bodiePlay.addEventListener("click", playMusic);
-}
-function playMusic() {
-    let audio = new Audio("sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3");
-    audio.play()
-}
-bodiePlay.addEventListener("click" , playMusic);
+// ------------------------------
+// SOUND BUTTON 1
+// ------------------------------
+const bodieBtn = document.getElementById("bodiePlay");
 
-let play = document.getElementById("play");
-if (play) {
-    play.addEventListener("click", playMusic);
+if (bodieBtn) {
+    bodieBtn.addEventListener("click", () => {
+        const audio = new Audio("sound/freesound_community-atlantic-storm-58999.mp3");
+        audio.play();
+    });
 }
-function playMusic() {
-    let audio = new Audio("sound/alban_gogh-old-plane-sound-effect-183515.mp3");
-    audio.play()
+
+// ------------------------------
+// SOUND BUTTON 2
+// ------------------------------
+const playBtn = document.getElementById("play");
+
+if (playBtn) {
+    playBtn.addEventListener("click", () => {
+        const audio = new Audio("sound/alban_gogh-old-plane-sound-effect-183515.mp3");
+        audio.play();
+    });
 }
-play.addEventListener("click" , playMusic);
+
+
