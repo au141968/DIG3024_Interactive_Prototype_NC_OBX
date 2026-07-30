@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lighthouses of the Outer Banks</title>
+        <title>Lighthouses of the Outer Banks - Cape Hatteras</title>
         <link rel="stylesheet" href="css/hatteras.css">
     </head>
     <body>
@@ -13,14 +13,61 @@
                 background-size: cover;
             }
         </style>
-     <header>
+     <audio id="sound1" src="sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3"></audio>
+     <audio id="sound2" src="sound/freesound_community-civil-war-gun-fire-22914.mp3"></audio>
+     <section class="container">
+        <header>
         <h1>Cape Hatteras Lighthouse</h1>
+        <h2>Built: 1870, Height: 208 ft. 268 Steps</h2>
      </header>
+        <h2>Click the Images Below to View the History</h2>
+        <button id="hatterasPlay" class="imageBtn">
+        <img src="images/100_6335.JPG" width="400" height="600">
+        </button>
+<div class="textPopup modal-overlay">
+    <div class="modal-content">
+        <span class="closeBtn close-icon">&times;</span>
+        <h3>America's Tallest Lighthouse</h3>
+        <p>Built in 1870, the Cape Hatteras Lighthouse is operated by the National Park Service. 
+            <img src="images/100_6367.JPG" width="500" height="420">
+            The Moon setting behind the grand tower.  
+            This lighthouse was a key aid to navigation for ships entering one of the most dangerous sections of the Outer Banks.
+            <img src="images/100_6023.JPG" width="500" height="420">
+            Inside the tower, there is a total of 268 steps that lead from the base to the lantern room.
+
+            <img src="images/100_6063.JPG" width="500" height="700">
+             The original 1st order Fresnel Lens.  This lens enabled the light to have a range of more than 18 miles out to sea.
+            <img src="images/100_6356.JPG" width="500" height="420">
+             Cape Hatteras shines at twilight.  A silent sentinel to the history it has witnessed, including the Civil War.
+        </p>
+    </div>
+</div>
+        <button id="play" class="imageBtn">
+        <img src="images/100_5947.JPG" width="420" height="620">
+        </button>
+<div class="textPopup modal-overlay">
+    <div class="modal-content">
+        <span class="closeBtn close-icon">&times;</span>
+        <h3>The Civil War</h3>
+        <p>The Outer Banks was home to many battles in attempts to gain control of the coastline. 
+            <img src="images/20260720_004149.JPG" width="500" height="700">
+            Union troops controlled the North Carolina coast from 1862-1863.  The Navy patrolled the coastline and the inlets and rivers.
+            They set up camps and occupied the Outer Banks until the end of the war.
+            <img src="images/101_8768.JPG" width="500" height="420">
+            Originally built by the Confederate government, Fort Clark had 7 cannons positioned on the outer walls facing the ocean.
+            However, in August 1861, Union troops landed and took the fort that had been abandoned by Confederate troops due to the lack of gunpowder.
+            <img src="images/100_6091.JPG" width="500" height="420">
+            A marker commemorating the settlement that was formed to house slaves that were attempting to escape their fate.
+            As word of this refuge spread, more and more came.  Many would move to Roanoke Island to form a Freedmen's Colony after the end of the war.
+        </p>
+    </div>
+</div>
+     </div>
      <footer>
         <button>
        <a href="index.html">Back to Main Menu</a>
         </button>
      </footer>
-     <script src="js/script.js" defer></script>
+     <script src="js/hatteras.js" defer></script>
     </body>
 </html>
